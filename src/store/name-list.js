@@ -100,6 +100,10 @@ export const nameList = [
     name: 'CHRIS LIN'
   },
   {
+    key: 26,
+    name: 'JAMES CHA'
+  },
+  {
     key: 27,
     name: 'ALLEN SHI'
   },
@@ -185,7 +189,7 @@ export const nameList = [
   },
   {
     key: 48,
-    name: 'HU YUNING '
+    name: 'HU YUNING'
   },
   {
     key: 49,
@@ -428,8 +432,16 @@ export const nameList = [
     name: 'FRANCESCA TAY'
   },
   {
+    key: 109,
+    name: 'RACHEAL KOH'
+  },
+  {
     key: 110,
     name: 'BEN LIM'
+  },
+  {
+    key: 111,
+    name: 'ABBY LOW'
   },
   {
     key: 112,
@@ -444,6 +456,10 @@ export const nameList = [
     name: 'CHANHLE'
   },
   {
+    key: 115,
+    name: 'KYLE CHEN'
+  },
+  {
     key: 116,
     name: 'BOWEN CAI'
   },
@@ -455,20 +471,4 @@ export const nameList = [
     key: 118,
     name: 'JIAMING SONG'
   },
-  {
-    key: 119,
-    name: 'KYLE CHEN'
-  },
-  {
-    key: 120,
-    name: 'ABBY LOW'
-  },
-  {
-    key: 121,
-    name: 'RACHEAL KOH'
-  },
-  {
-    key: 122,
-    name: 'JAMES CHA'
-  }
 ];
