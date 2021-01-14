@@ -226,7 +226,6 @@ export default {
     const list = getData(listField);
     if (list) {
       console.log(list)
-      console.log('setList')
       this.$store.commit('setList', list);
     }
   },
