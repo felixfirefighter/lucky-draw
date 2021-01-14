@@ -14,7 +14,7 @@ Vue.use(Vuex);
 const defaultState = {
   config: {
     name: '年会抽奖',
-    number: 118,
+    number: nameList.length,
     grandPrize: 1,
     firstPrize: 5,
     secondPrize: 10,
@@ -50,7 +50,7 @@ export default new Vuex.Store({
     setClearConfig(state) {
       state.config = {
         name: '年会抽奖',
-        number: 118,
+        number: nameList.length,
         grandPrize: 1,
         firstPrize: 5,
         secondPrize: 5,
