@@ -428,16 +428,8 @@ export const nameList = [
     name: 'FRANCESCA TAY'
   },
   {
-    key: 109,
-    name: 'FELIX LEE'
-  },
-  {
     key: 110,
     name: 'BEN LIM'
-  },
-  {
-    key: 111,
-    name: 'JESSICA QIAO'
   },
   {
     key: 112,
@@ -450,10 +442,6 @@ export const nameList = [
   {
     key: 114,
     name: 'CHANHLE'
-  },
-  {
-    key: 115,
-    name: 'chanhle'
   },
   {
     key: 116,
