@@ -7,6 +7,8 @@ import {
   listField
 } from '@/helper/index';
 
+import { nameList } from './name-list'
+
 Vue.use(Vuex);
 
 const defaultState = {
@@ -38,7 +40,7 @@ const defaultState = {
       name: '3rd Prize'
     }
   ],
-  list: [{}],
+  list: nameList,
   photos: []
 };
 
