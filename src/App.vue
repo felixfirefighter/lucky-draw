@@ -118,6 +118,7 @@ import Tool from '@/components/Tool';
 import bgaudio from '@/assets/bg.mp3';
 import beginaudio from '@/assets/begin.mp3';
 import {
+  setData,
   getData,
   configField,
   resultField,
@@ -128,6 +129,8 @@ import {
 import { luckydrawHandler } from '@/helper/algorithm';
 import Result from '@/components/Result';
 import { database, DB_STORE_NAME } from '@/helper/db';
+import { nameList } from './store/name-list'
+
 export default {
   name: 'App',
 
@@ -196,6 +199,9 @@ export default {
     }
   },
   created() {
+    // set name list
+    setData(listField, nameList)
+
     const data = getData(configField);
     if (data) {
       this.$store.commit('setConfig', Object.assign({}, data));
@@ -219,6 +225,8 @@ export default {
 
     const list = getData(listField);
     if (list) {
+      console.log(list)
+      console.log('setList')
       this.$store.commit('setList', list);
     }
   },
