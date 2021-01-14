@@ -100,10 +100,6 @@ export const nameList = [
     name: 'CHRIS LIN'
   },
   {
-    key: 26,
-    name: 'JOANN WANG'
-  },
-  {
     key: 27,
     name: 'ALLEN SHI'
   },
