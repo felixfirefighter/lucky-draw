@@ -72,7 +72,7 @@ export default new Vuex.Store({
       ];
     },
     setClearList(state) {
-      state.list = [];
+      state.list = nameList;
     },
     setClearPhotos(state) {
       state.photos = [];
