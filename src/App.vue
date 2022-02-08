@@ -46,7 +46,7 @@
               <span
                 v-if="!!list.find(d => d.key === item)"
                 :style="{
-                  fontSize: '30px',
+                  fontSize: '20px',
                   padding: '8px'
                 }"
               >
@@ -456,9 +456,10 @@ export default {
     flex-wrap: wrap;
   }
   .itemres {
+    word-break: break-all;
     background: #fff;
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 100px;
     border-radius: 4px;
     border: 1px solid #ccc;
     // line-height: 160px;
